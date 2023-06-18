@@ -1,0 +1,559 @@
+2023-04-16 13:23:01.8788 Info Message Template Auto Format enabled
+2023-04-16 13:23:01.8788 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-16 13:23:01.9580 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-16 13:23:01.9884 Info Validating config: TargetNames=allfile, ConfigItems=23, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-16 13:23:02.2871 Info Validating config: TargetNames=allfile, ConfigItems=23, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-16 13:27:20.0959 Info Message Template Auto Format enabled
+2023-04-16 13:27:20.1089 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-16 13:27:20.1571 Info Registered target NLog.Targets.FileTarget(Name=exceptiona)
+2023-04-16 13:27:20.1571 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-16 13:27:20.1798 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'exceptions' not found for logging rule: RestaurantAPI.*.
+2023-04-16 13:27:20.2098 Info Validating config: TargetNames=allfile, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-16 13:27:20.2222 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: exceptiona
+2023-04-16 13:27:20.5478 Info Validating config: TargetNames=allfile, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-16 13:28:25.4800 Info Message Template Auto Format enabled
+2023-04-16 13:28:25.4800 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-16 13:28:25.5135 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-16 13:28:25.5135 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-16 13:28:25.5289 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-16 13:28:25.6439 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:16:41.1577 Info Message Template Auto Format enabled
+2023-04-17 08:16:41.1637 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 08:16:41.1947 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 08:16:41.1947 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 08:16:41.2102 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:21:06.7843 Info Message Template Auto Format enabled
+2023-04-17 08:21:06.7843 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 08:21:06.8176 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 08:21:06.8176 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 08:21:06.8322 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:21:06.9411 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:22:59.3376 Info Message Template Auto Format enabled
+2023-04-17 08:22:59.3376 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 08:22:59.3726 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 08:22:59.3726 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 08:22:59.3891 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:22:59.5030 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:23:18.7340 Info Message Template Auto Format enabled
+2023-04-17 08:23:18.7426 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 08:23:18.8043 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 08:23:18.8043 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 08:23:18.8254 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:23:19.5015 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:42:16.7670 Info Message Template Auto Format enabled
+2023-04-17 08:42:16.7732 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 08:42:16.8029 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 08:42:16.8029 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 08:42:16.8176 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 08:42:16.9296 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 09:08:59.2790 Info Message Template Auto Format enabled
+2023-04-17 09:08:59.2850 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 09:08:59.3018 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 09:08:59.3018 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 09:08:59.3280 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 09:08:59.5205 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 09:11:19.2371 Info Message Template Auto Format enabled
+2023-04-17 09:11:19.2371 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 09:11:19.2711 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 09:11:19.2711 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 09:11:19.2863 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 09:11:19.3979 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 09:12:27.7249 Info Message Template Auto Format enabled
+2023-04-17 09:12:27.7249 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 09:12:27.7601 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 09:12:27.7601 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 09:12:27.7758 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 09:12:27.8864 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=43, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 19:52:01.7669 Info Message Template Auto Format enabled
+2023-04-17 19:52:01.7747 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 19:52:01.8069 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-17 19:52:01.8069 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 19:52:01.8069 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 19:52:01.8242 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 19:52:02.7353 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 19:53:41.2570 Info Message Template Auto Format enabled
+2023-04-17 19:53:41.2570 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-17 19:53:41.3653 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-17 19:53:41.3653 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-17 19:53:41.3653 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-17 19:53:41.4078 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-17 19:53:42.4217 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-19 18:21:19.3592 Info Message Template Auto Format enabled
+2023-04-19 18:21:19.3592 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-19 18:21:19.3823 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-19 18:21:19.3823 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-19 18:21:19.3823 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-19 18:21:19.4094 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-19 18:21:20.0195 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-19 18:30:25.7529 Info Message Template Auto Format enabled
+2023-04-19 18:30:25.7586 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-19 18:30:25.7750 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-19 18:30:25.7866 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-19 18:30:25.7866 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-19 18:30:25.7866 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-19 18:30:25.9141 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 09:41:46.6742 Info Message Template Auto Format enabled
+2023-04-28 09:41:46.6900 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 09:41:46.7838 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 09:41:46.7838 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 09:41:46.7838 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 09:41:46.8330 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 09:41:48.3613 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 09:46:15.7415 Info Message Template Auto Format enabled
+2023-04-28 09:46:15.7415 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 09:46:15.8007 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 09:46:15.8007 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 09:46:15.8007 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 09:46:15.8289 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 09:46:16.0637 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 09:52:48.6881 Info Message Template Auto Format enabled
+2023-04-28 09:52:48.6971 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 09:52:48.7619 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 09:52:48.7619 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 09:52:48.7619 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 09:52:48.7942 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 09:52:49.0249 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 12:09:26.6635 Info Message Template Auto Format enabled
+2023-04-28 12:09:26.7046 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 12:09:26.7380 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 12:09:26.7380 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 12:09:26.7380 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 12:09:26.7564 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 12:09:27.4263 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 12:21:06.0282 Info Message Template Auto Format enabled
+2023-04-28 12:21:06.0343 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 12:21:06.0516 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 12:21:06.0516 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 12:21:06.0516 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 12:21:06.0804 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 12:21:06.1934 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:23.7951 Info Message Template Auto Format enabled
+2023-04-28 13:25:23.8042 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 13:25:23.8550 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 13:25:23.8550 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 13:25:23.8550 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 13:25:23.8892 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:24.0281 Info Message Template Auto Format enabled
+2023-04-28 13:25:24.0389 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 13:25:24.0944 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 13:25:24.0944 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 13:25:24.0944 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 13:25:24.1013 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:24.1217 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:24.1648 Warn FileTarget(Name=allfile): Failed to create file appender: E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Logs\nlog-all-2023-04-28.log Exception: System.IO.IOException: The process cannot access the file 'E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Logs\nlog-all-2023-04-28.log' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2023-04-28 13:25:24.3847 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:39.8791 Info Message Template Auto Format enabled
+2023-04-28 13:25:39.8791 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 13:25:39.9115 Info Message Template Auto Format enabled
+2023-04-28 13:25:39.9115 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 13:25:39.9455 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 13:25:39.9455 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 13:25:39.9455 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 13:25:39.9716 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:39.9754 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 13:25:39.9754 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 13:25:39.9754 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 13:25:40.0006 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:40.0429 Warn FileTarget(Name=allfile): Failed to create file appender: E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Logs\nlog-all-2023-04-28.log Exception: System.IO.IOException: The process cannot access the file 'E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\Logs\nlog-all-2023-04-28.log' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.TryCreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender..ctor(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.SingleProcessFileAppender.Factory.NLog.Internal.FileAppenders.IFileAppenderFactory.Open(String fileName, ICreateFileParameters parameters)
+   at NLog.Internal.FileAppenders.FileAppenderCache.CreateAppender(String fileName, Int32 freeSpot)
+2023-04-28 13:25:40.1679 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:25:40.2128 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:54:28.8934 Info Message Template Auto Format enabled
+2023-04-28 13:54:28.9569 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 13:54:29.0080 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 13:54:29.0080 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 13:54:29.0080 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 13:54:29.0403 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 13:54:30.8642 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:22:55.3633 Info Message Template Auto Format enabled
+2023-04-28 15:22:55.3633 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 15:22:55.4284 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 15:22:55.4284 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 15:22:55.4284 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 15:22:55.4541 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:22:55.6541 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:29:43.6068 Info Message Template Auto Format enabled
+2023-04-28 15:29:43.6183 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 15:29:43.8105 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 15:29:43.8105 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 15:29:43.8105 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 15:29:43.8524 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:29:45.0559 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:43:44.2836 Info Message Template Auto Format enabled
+2023-04-28 15:43:44.2999 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 15:43:44.3651 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 15:43:44.3651 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 15:43:44.3651 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 15:43:44.4143 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:43:44.6844 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:47:31.2525 Info Message Template Auto Format enabled
+2023-04-28 15:47:31.2696 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 15:47:31.3242 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 15:47:31.3242 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 15:47:31.3242 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 15:47:31.3506 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 15:47:31.5518 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 16:14:17.0251 Info Message Template Auto Format enabled
+2023-04-28 16:14:17.0346 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 16:14:17.0940 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 16:14:17.0940 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 16:14:17.0940 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 16:14:17.1301 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 16:14:17.5117 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 16:18:55.2039 Info Message Template Auto Format enabled
+2023-04-28 16:18:55.2138 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-28 16:18:55.2794 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-04-28 16:18:55.2794 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-28 16:18:55.2794 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-28 16:18:55.3058 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-04-28 16:18:55.5592 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-03 16:40:06.3302 Info Message Template Auto Format enabled
+2023-05-03 16:40:06.3477 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 16:40:06.4419 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-03 16:40:06.4426 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-03 16:40:06.4426 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 16:40:06.4893 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-03 16:40:08.3883 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-03 16:43:00.3679 Info Message Template Auto Format enabled
+2023-05-03 16:43:00.3679 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 16:43:00.4408 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-03 16:43:00.4408 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-03 16:43:00.4408 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 16:43:00.4689 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-03 16:43:00.6788 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-03 16:44:20.1318 Info Message Template Auto Format enabled
+2023-05-03 16:44:20.1318 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-03 16:44:20.1989 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-03 16:44:20.1989 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-03 16:44:20.1989 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-03 16:44:20.2279 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-03 16:44:20.4371 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:12:25.5382 Info Message Template Auto Format enabled
+2023-05-12 08:12:25.5382 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 08:12:25.6075 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 08:12:25.6075 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 08:12:25.6075 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 08:12:25.6392 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:12:27.1575 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:19:29.4473 Info Message Template Auto Format enabled
+2023-05-12 08:19:29.4598 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 08:19:29.5452 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 08:19:29.5452 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 08:19:29.5452 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 08:19:29.5923 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:19:30.5498 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:25:34.7563 Info Message Template Auto Format enabled
+2023-05-12 08:25:34.7563 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 08:25:34.8335 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 08:25:34.8335 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 08:25:34.8335 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 08:25:34.8866 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:25:35.1344 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:42:28.2369 Info Message Template Auto Format enabled
+2023-05-12 08:42:28.2520 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 08:42:28.3105 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 08:42:28.3105 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 08:42:28.3105 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 08:42:28.3391 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:42:28.5432 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:58:46.2518 Info Message Template Auto Format enabled
+2023-05-12 08:58:46.2620 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 08:58:46.3179 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 08:58:46.3179 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 08:58:46.3179 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 08:58:46.3480 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 08:58:46.5889 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 09:36:39.3288 Info Message Template Auto Format enabled
+2023-05-12 09:36:39.3386 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 09:36:39.3891 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 09:36:39.3891 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 09:36:39.3891 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 09:36:39.4183 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 09:36:39.6509 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 09:38:12.0568 Info Message Template Auto Format enabled
+2023-05-12 09:38:12.0674 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 09:38:12.1184 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 09:38:12.1184 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 09:38:12.1184 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 09:38:12.1548 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 09:38:12.3866 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 12:10:54.8422 Info Message Template Auto Format enabled
+2023-05-12 12:10:54.8718 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 12:10:54.9018 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 12:10:54.9018 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 12:10:54.9018 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 12:10:54.9182 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 12:10:55.5261 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 12:11:04.5938 Info Message Template Auto Format enabled
+2023-05-12 12:11:04.5989 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 12:11:04.6155 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 12:11:04.6155 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 12:11:04.6155 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 12:11:04.6448 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 12:11:04.7671 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 12:11:37.0863 Info Message Template Auto Format enabled
+2023-05-12 12:11:37.0863 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 12:11:37.1188 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 12:11:37.1188 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 12:11:37.1188 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 12:11:37.1383 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 12:11:37.2666 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:12:14.7635 Info Message Template Auto Format enabled
+2023-05-12 14:12:14.7737 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:12:14.8232 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:12:14.8232 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:12:14.8232 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:12:14.8506 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:12:15.0642 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:15:46.9617 Info Message Template Auto Format enabled
+2023-05-12 14:15:46.9749 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:15:47.0669 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:15:47.0669 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:15:47.0669 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:15:47.1070 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:15:48.0566 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:17:46.4223 Info Message Template Auto Format enabled
+2023-05-12 14:17:46.4331 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:17:46.5229 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:17:46.5229 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:17:46.5229 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:17:46.5613 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:17:47.7129 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:19:11.2094 Info Message Template Auto Format enabled
+2023-05-12 14:19:11.2094 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:19:11.3370 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:19:11.3370 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:19:11.3370 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:19:11.4022 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:19:12.3930 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:21:45.6712 Info Message Template Auto Format enabled
+2023-05-12 14:21:45.6823 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:21:45.7845 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:21:45.7848 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:21:45.7848 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:21:45.8213 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:21:46.8910 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:22:31.1107 Info Message Template Auto Format enabled
+2023-05-12 14:22:31.1200 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:22:31.1884 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:22:31.1884 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:22:31.1902 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:22:31.2326 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:22:31.4834 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:54:14.5959 Info Message Template Auto Format enabled
+2023-05-12 14:54:14.6023 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 14:54:14.6307 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 14:54:14.6307 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 14:54:14.6307 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 14:54:14.6467 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 14:54:14.7693 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 15:18:53.3383 Info Message Template Auto Format enabled
+2023-05-12 15:18:53.3383 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 15:18:53.3731 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 15:18:53.3731 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 15:18:53.3731 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 15:18:53.3912 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 15:18:53.5146 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 21:12:34.5509 Info Message Template Auto Format enabled
+2023-05-12 21:12:34.5509 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-12 21:12:34.5837 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-12 21:12:34.5837 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-12 21:12:34.5837 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-12 21:12:34.6119 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-12 21:12:35.4682 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-14 11:07:15.8224 Info Message Template Auto Format enabled
+2023-05-14 11:07:15.8224 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-14 11:07:15.8565 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-14 11:07:15.8565 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-14 11:07:15.8565 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-14 11:07:15.8721 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-14 11:07:16.5802 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-14 11:08:13.1403 Info Message Template Auto Format enabled
+2023-05-14 11:08:13.1927 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-14 11:08:13.2242 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-14 11:08:13.2242 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-14 11:08:13.2242 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-14 11:08:13.2397 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-14 11:08:13.3583 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-14 15:32:20.0527 Info Message Template Auto Format enabled
+2023-05-14 15:32:20.0629 Info Loading assembly: NLog.Web.AspNetCore
+2023-05-14 15:32:20.1414 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-05-14 15:32:20.1414 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-05-14 15:32:20.1414 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-05-14 15:32:20.1849 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-05-14 15:32:20.4742 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 10:46:57.6950 Info Message Template Auto Format enabled
+2023-06-02 10:46:57.6950 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 10:46:57.7732 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 10:46:57.7732 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 10:46:57.7732 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 10:46:57.8048 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 10:46:59.2209 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 10:53:06.5400 Info Message Template Auto Format enabled
+2023-06-02 10:53:06.5400 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 10:53:06.6037 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 10:53:06.6037 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 10:53:06.6037 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 10:53:06.6356 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 10:53:06.9009 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 11:11:09.6106 Info Message Template Auto Format enabled
+2023-06-02 11:11:09.6192 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 11:11:09.6655 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 11:11:09.6655 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 11:11:09.6655 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 11:11:09.6905 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 11:11:09.9001 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 11:11:40.1835 Info Message Template Auto Format enabled
+2023-06-02 11:11:40.1835 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 11:11:40.2401 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 11:11:40.2401 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 11:11:40.2401 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 11:11:40.2699 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 11:11:40.4829 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 11:41:55.0057 Info Message Template Auto Format enabled
+2023-06-02 11:41:55.0057 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 11:41:55.0332 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 11:41:55.0332 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 11:41:55.0332 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 11:41:55.0644 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 11:41:55.1949 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 12:05:09.9659 Info Message Template Auto Format enabled
+2023-06-02 12:05:09.9722 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 12:05:10.0045 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 12:05:10.0045 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 12:05:10.0045 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 12:05:10.0235 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 12:05:10.1490 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 12:49:53.5530 Info Message Template Auto Format enabled
+2023-06-02 12:49:53.5993 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 12:49:53.6317 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 12:49:53.6317 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 12:49:53.6317 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 12:49:53.6495 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 12:49:54.7310 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 13:02:48.0771 Info Message Template Auto Format enabled
+2023-06-02 13:02:48.0828 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 13:02:48.1133 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 13:02:48.1133 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 13:02:48.1133 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 13:02:48.1290 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 13:02:48.3279 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 20:56:45.8062 Info Message Template Auto Format enabled
+2023-06-02 20:56:45.8325 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 20:56:45.8724 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 20:56:45.8724 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 20:56:45.8724 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 20:56:45.8919 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 20:56:46.9155 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 20:59:15.6817 Info Message Template Auto Format enabled
+2023-06-02 20:59:15.6918 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 20:59:15.7620 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 20:59:15.7620 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 20:59:15.7620 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 20:59:15.7950 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 20:59:16.9548 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 21:00:06.6477 Info Message Template Auto Format enabled
+2023-06-02 21:00:06.6477 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 21:00:06.6737 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 21:00:06.6737 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 21:00:06.6737 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 21:00:06.7070 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 21:00:06.9492 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 21:09:24.8429 Info Message Template Auto Format enabled
+2023-06-02 21:09:24.8563 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-02 21:09:24.9599 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-02 21:09:24.9599 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-02 21:09:24.9599 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-02 21:09:25.0140 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-02 21:09:26.2531 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-09 19:20:39.4558 Info Message Template Auto Format enabled
+2023-06-09 19:20:39.4749 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-09 19:20:39.5071 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-09 19:20:39.5071 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-09 19:20:39.5071 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-09 19:20:39.5241 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-09 19:20:40.5238 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-09 19:20:51.5481 Info Message Template Auto Format enabled
+2023-06-09 19:20:51.5539 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-09 19:20:51.5822 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-09 19:20:51.5822 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-09 19:20:51.5822 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-09 19:20:51.5976 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-09 19:20:51.7982 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:47:54.6468 Info Message Template Auto Format enabled
+2023-06-10 11:47:54.6468 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 11:47:54.7072 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 11:47:54.7072 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 11:47:54.7072 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 11:47:54.7437 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:47:56.6778 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:48:36.7624 Info Message Template Auto Format enabled
+2023-06-10 11:48:36.7753 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 11:48:36.8598 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 11:48:36.8598 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 11:48:36.8625 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 11:48:36.8962 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:48:37.3242 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:56:39.7763 Info Message Template Auto Format enabled
+2023-06-10 11:56:39.7870 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 11:56:39.8352 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 11:56:39.8352 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 11:56:39.8352 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 11:56:39.8613 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:56:40.1995 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:58:22.0931 Info Message Template Auto Format enabled
+2023-06-10 11:58:22.1089 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 11:58:22.1692 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 11:58:22.1692 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 11:58:22.1692 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 11:58:22.2017 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:58:22.5274 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:59:26.1431 Info Message Template Auto Format enabled
+2023-06-10 11:59:26.1538 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 11:59:26.2142 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 11:59:26.2142 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 11:59:26.2142 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 11:59:26.2441 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 11:59:26.6114 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 12:03:15.9674 Info Message Template Auto Format enabled
+2023-06-10 12:03:15.9770 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 12:03:16.0317 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 12:03:16.0317 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 12:03:16.0317 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 12:03:16.0614 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 12:03:16.4397 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 12:44:34.9850 Info Message Template Auto Format enabled
+2023-06-10 12:44:34.9976 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 12:44:35.0599 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 12:44:35.0599 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 12:44:35.0599 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 12:44:35.0937 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 12:44:35.4793 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 13:00:34.9163 Info Message Template Auto Format enabled
+2023-06-10 13:00:34.9269 Info Loading assembly: NLog.Web.AspNetCore
+2023-06-10 13:00:34.9826 Info Registered target NLog.Targets.FileTarget(Name=request-time)
+2023-06-10 13:00:34.9826 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-06-10 13:00:34.9826 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-06-10 13:00:35.0153 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
+2023-06-10 13:00:35.3542 Info Validating config: TargetNames=allfile, exceptions, request-time, ConfigItems=61, FilePath=E:\Csharp\RestaurantAPI\RestaurantAPI\bin\Debug\net6.0\NLog.config
