@@ -5,12 +5,12 @@ RestaurantAPI is a web API application built using ASP.NET Core. It provides fun
 ##
 ## Technologies Used
 
-ASP.NET Core
-Entity Framework Core
-AutoMapper
-FluentValidation
-JWT Authentication
-Swagger UI
+ASP.NET Core  
+Entity Framework Core  
+AutoMapper  
+FluentValidation  
+JWT Authentication  
+Swagger UI  
 NLog
 
 ##
@@ -50,7 +50,7 @@ dotnet ef database update
 ```bash
 dotnet run
 ```
-The API will be accessible at https://localhost:7121
+The API will be accessible at https://localhost:7121  
 The SWAGGER will be accessible at https://localhost:7121/swagger/index.html
 ##
 ##
