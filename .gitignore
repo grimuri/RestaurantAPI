@@ -235,3 +235,4 @@ _Pvt_Extensions
 RestaurantAPI/Properties/ServiceDependencies/RestaurantsAPI - FTP1/profile.arm.json
 RestaurantAPI/Properties/ServiceDependencies/RestaurantsAPI - Web Deploy/profile.arm.json
 RestaurantAPI/Properties/ServiceDependencies/RestaurantsAPI - Zip Deploy/profile.arm.json
+./Logs/InnerLog.txt

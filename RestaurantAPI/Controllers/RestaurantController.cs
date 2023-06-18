@@ -24,32 +24,33 @@ namespace RestaurantAPI.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Moderator")]
         public ActionResult UpdateRestaurant([FromRoute] int id,
             [FromBody] UpdateRestaurantDto dto)
         {
             var isUpdated = _restaurantService.Update(id, dto);
 
-            return Ok();
+            return Ok("Successfully updated");
         }
         
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Moderator")]
         public ActionResult DeleteRestaurant([FromRoute] int id)
         {
             var isDeleted = _restaurantService.Delete(id);
 
-            return Ok();
+            return Ok("Successfully deleted");
         }
 
         [HttpGet]
         [AllowAnonymous]
-        public PagedResult<RestaurantDto> GetAll([FromQuery] RestaurantQuery query)
+        public ActionResult<PagedResult<RestaurantDto>> GetAll([FromQuery] RestaurantQuery query)
         {
             var restaurants = _restaurantService.GetAll(query);
-            return restaurants;
+            return Ok(restaurants);
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin,Manager")]
         public ActionResult CreateRestaurant([FromBody] CreateRestaurantDto dto)
         {
             var id = _restaurantService.Create(dto);

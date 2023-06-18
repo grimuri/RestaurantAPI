@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RestaurantAPI.Entities;
 using RestaurantAPI.Models;
 using RestaurantAPI.Services.Interfaces;
@@ -7,6 +8,7 @@ namespace RestaurantAPI.Controllers
 {
     [Route("api/restaurant/{restaurantId}/dish")]
     [ApiController]
+    [Authorize]
     public class DishController : ControllerBase
     {
         private readonly IDishService _dishService;
@@ -16,6 +18,7 @@ namespace RestaurantAPI.Controllers
         }
 
         [HttpDelete]
+        [Authorize(Roles = "Admin,Moderator")]
         public ActionResult DeleteAllDishes([FromRoute] int restaurantId)
         {
             _dishService.RemoveAll(restaurantId);
@@ -23,6 +26,7 @@ namespace RestaurantAPI.Controllers
         }
 
         [HttpDelete("{dishId}")]
+        [Authorize(Roles = "Admin,Moderator")]
         public ActionResult DeleteDish([FromRoute] int restaurantId,
             [FromRoute] int dishId)
         {
@@ -39,6 +43,7 @@ namespace RestaurantAPI.Controllers
         }
 
         [HttpGet("{dishId}")]
+        [AllowAnonymous]
         public ActionResult<DishDto> GetDishById([FromRoute] int restaurantId, 
             [FromRoute] int dishId)
         {
@@ -47,6 +52,7 @@ namespace RestaurantAPI.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public ActionResult<List<DishDto>> GetAllDish([FromRoute] int restaurantId)
         {
             var result = _dishService.GetAll(restaurantId);
