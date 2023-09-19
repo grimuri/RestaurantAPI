@@ -4,8 +4,15 @@ using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace RestaurantAPI.IntegrationTests;
 
-public class RestaurantControllerTests
+public class RestaurantControllerTests : IClassFixture<WebApplicationFactory<Program>>
 {
+    private readonly HttpClient _client;
+
+    public RestaurantControllerTests(WebApplicationFactory<Program> factory)
+    {
+        _client = factory.CreateClient();
+    }
+    
     [Theory]
     [InlineData("pageSize=5&pageNumber=1")]
     [InlineData("pageSize=10&pageNumber=2")]
@@ -14,12 +21,9 @@ public class RestaurantControllerTests
     {
         // Arrange
         
-        var webApplicationFactory = new WebApplicationFactory<Program>();
-        var httpClient = webApplicationFactory.CreateClient();
-        
         // Act
 
-        var response = await httpClient.GetAsync($"api/restaurant?{queryParams}");
+        var response = await _client.GetAsync($"api/restaurant?{queryParams}");
         
         // Assert
 
@@ -31,16 +35,15 @@ public class RestaurantControllerTests
     [InlineData("pageSize=10&pageNumber=0")]
     [InlineData("pageSize=15&pageNumber=-3")]
     [InlineData("pageSize=20&pageNumber=3")]
+    [InlineData(null)]
+    [InlineData("")]
     public async Task GetAll_WithInvalidQueryParams_ReturnsBadRequest(string queryParams)
     {
         // Arrange
         
-        var webApplicationFactory = new WebApplicationFactory<Program>();
-        var httpClient = webApplicationFactory.CreateClient();
-        
         // Act
 
-        var response = await httpClient.GetAsync($"api/restaurant?{queryParams}");
+        var response = await _client.GetAsync($"api/restaurant?{queryParams}");
         
         // Assert
 
