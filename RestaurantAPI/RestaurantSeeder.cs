@@ -6,6 +6,7 @@ namespace RestaurantAPI
     public class RestaurantSeeder
     {
         private readonly RestaurantDbContext _dbContext;
+
         public RestaurantSeeder(RestaurantDbContext dbContext)
         {
             _dbContext = dbContext;
@@ -15,12 +16,16 @@ namespace RestaurantAPI
         {
             if (_dbContext.Database.CanConnect())
             {
-                var pendingMigrations = _dbContext.Database.GetPendingMigrations();
-
-                if(pendingMigrations != null && pendingMigrations.Any())
+                if (_dbContext.Database.IsRelational())
                 {
-                    _dbContext.Database.Migrate();
+                    var pendingMigrations = _dbContext.Database.GetPendingMigrations();
+
+                    if (pendingMigrations != null && pendingMigrations.Any())
+                    {
+                        _dbContext.Database.Migrate();
+                    }
                 }
+
 
                 if (!_dbContext.Roles.Any())
                 {
@@ -69,7 +74,8 @@ namespace RestaurantAPI
                 {
                     Name = "KFC",
                     Category = "Fast Dood",
-                    Description = "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken.",
+                    Description =
+                        "KFC (Kentucky Fried Chicken) is an American fast food restaurant chain headquartered in Louisville, Kentucky, that specializes in fried chicken.",
                     ContactEmail = "contact@kfc.com",
                     HasDelivery = true,
                     Dishes = new List<Dish>()
@@ -98,7 +104,8 @@ namespace RestaurantAPI
                 {
                     Name = "McDonald",
                     Category = "Fast Food",
-                    Description = "McDonald's Corporation is an American multinational fast food chain, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.",
+                    Description =
+                        "McDonald's Corporation is an American multinational fast food chain, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.",
                     ContactEmail = "contact@mcdonald.com",
                     Address = new Address()
                     {

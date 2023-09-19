@@ -1,6 +1,8 @@
 ﻿using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using RestaurantAPI.Entities;
 
 namespace RestaurantAPI.IntegrationTests;
 
@@ -10,7 +12,21 @@ public class RestaurantControllerTests : IClassFixture<WebApplicationFactory<Pro
 
     public RestaurantControllerTests(WebApplicationFactory<Program> factory)
     {
-        _client = factory.CreateClient();
+        _client = factory
+            .WithWebHostBuilder(builder =>
+            {
+                builder.ConfigureServices(services =>
+                {
+                    var dbContextOptions = services
+                        .SingleOrDefault(service =>
+                            service.ServiceType == typeof(DbContextOptions<RestaurantDbContext>));
+
+                    services.Remove(dbContextOptions);
+                    
+                    services.AddDbContext<RestaurantDbContext>(options => options.UseInMemoryDatabase("RestaurantDb"));
+                });
+            })
+            .CreateClient();
     }
     
     [Theory]
