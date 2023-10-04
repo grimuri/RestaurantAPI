@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Newtonsoft.Json;
 using RestaurantAPI.Entities;
+using RestaurantAPI.IntegrationTests.Helpers;
 using RestaurantAPI.Models;
 
 namespace RestaurantAPI.IntegrationTests;
@@ -64,9 +65,7 @@ public class RestaurantControllerTests : IClassFixture<WebApplicationFactory<Pro
             City = "Rzeszów"
         };
 
-        var json = JsonConvert.SerializeObject(createRestaurantDto);
-
-        var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
+        var httpContent = createRestaurantDto.ToJsonHttpContent();
         
         // Act
 
@@ -77,6 +76,28 @@ public class RestaurantControllerTests : IClassFixture<WebApplicationFactory<Pro
         response.StatusCode.Should().Be(System.Net.HttpStatusCode.Created);
         response.Headers.Should().NotBeNull();
 
+    }
+
+    [Fact]
+    public async Task CreateRestaurant_WithInvalidModel_ReturnsBadRequest()
+    {
+        // Arrange
+
+        var createRestaurantDto = new CreateRestaurantDto()
+        {
+            ContactEmail = "email@email.com",
+            HasDelivery = true
+        };
+
+        var httpContent = createRestaurantDto.ToJsonHttpContent();
+        
+        // Act
+        
+        var response = await _client.PostAsync("api/restaurant", httpContent);
+        
+        // Assert
+
+        response.StatusCode.Should().Be(System.Net.HttpStatusCode.BadRequest);
     }
     
     [Theory]
