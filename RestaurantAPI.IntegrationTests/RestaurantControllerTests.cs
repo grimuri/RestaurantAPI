@@ -27,8 +27,10 @@ public class RestaurantControllerTests : IClassFixture<WebApplicationFactory<Pro
 
                     services.Remove(dbContextOptions);
                     services.AddSingleton<IPolicyEvaluator, FakePolicyEvaluator>();
-                    services.AddMvc(option => option.Filters.Add(new FakeUserFilter()));
-                    services.AddDbContext<RestaurantDbContext>(options => options.UseInMemoryDatabase("RestaurantDb"));
+                    services.AddMvc(option => 
+                        option.Filters.Add(new FakeUserFilter()));
+                    services.AddDbContext<RestaurantDbContext>(options => 
+                        options.UseInMemoryDatabase("RestaurantDb"));
                 });
             });
 
